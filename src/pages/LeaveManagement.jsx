@@ -368,7 +368,7 @@ const LeaveManagement = () => {
 
   // API base URL
   // const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:8080";
-  const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || "https://pharma1.shop";
+  const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || "https://api.pharma1.shop'";
 
   // Create axios instance with auth header
   const api = axios.create({
