@@ -22,8 +22,7 @@ import DepartmentManagement from "./pages/Vendor/DepartmentManagement";
 import Location from "./pages/Vendor/Location";
 import LeaveManagement from "./pages/LeaveManagement";
 import StoreManagement from "./pages/StoreManagement";
-import HolidayManagement from "./components/tables/BasicTables/HolidayManagement";
-import TaxManagement from "./pages/tax";
+import HolidayManagement from "./components/tables/BasicTables/HolidayManagement";;  
 import UnitManagement from "./pages/Unit";
 import ManufacturerManagement from "./pages/ManufacturerManagement";
 import CategoryManagement from "./pages/CategoryManagement";
@@ -42,6 +41,7 @@ import MaterialVendorManagement from "./pages/MaterialVendorManagement"
 import RolePermission from "./pages/Rolepermission";
 import AttendanceManagement from "./pages/Vendor/AttendanceManagement";
 import StoreInventory from "./pages/StoreInventory";
+import TaxManagement from "./pages/Tax";
 
 const App = () => {
   const { role } = useAppContext();
